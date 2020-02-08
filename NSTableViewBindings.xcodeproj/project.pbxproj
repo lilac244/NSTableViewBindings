@@ -23,6 +23,7 @@
 		48C8C12623EE59CB0065968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C8C12723EE59CB0065968F /* NSTableViewBindings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableViewBindings.entitlements; sourceTree = "<group>"; };
 		48C8C12D23EE5C480065968F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		48C8C12F23EE61D70065968F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		48C8C11123EE59C90065968F = {
 			isa = PBXGroup;
 			children = (
+				48C8C12F23EE61D70065968F /* README.md */,
 				48C8C11C23EE59C90065968F /* NSTableViewBindings */,
 				48C8C11B23EE59C90065968F /* Products */,
 			);
