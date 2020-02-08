@@ -725,7 +725,7 @@
                                             <tableColumns>
                                                 <tableColumn width="116" minWidth="40" maxWidth="1000" id="rnD-Ue-rTm">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="message" size="11"/>
+                                                        <font key="font" metaFont="controlContent" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -758,7 +758,7 @@
                                                 </tableColumn>
                                                 <tableColumn width="316" minWidth="40" maxWidth="1000" id="Bbl-QW-Max">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="message" size="11"/>
+                                                        <font key="font" metaFont="controlContent" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -808,6 +808,10 @@
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="arrayController" destination="t49-Zj-Qya" id="3Ot-0D-8mc"/>
+                        <outlet property="tableView" destination="t2b-aZ-0yz" id="wvP-ce-tca"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <arrayController id="t49-Zj-Qya"/>

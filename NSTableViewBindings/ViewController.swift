@@ -9,6 +9,9 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet var arrayController: NSArrayController!
+    @IBOutlet weak var tableView: NSTableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
