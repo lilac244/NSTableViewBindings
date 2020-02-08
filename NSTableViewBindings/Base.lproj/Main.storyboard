@@ -748,6 +748,9 @@
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
+                                                                    <connections>
+                                                                        <binding destination="fU1-bd-mYv" name="value" keyPath="objectValue.id" id="eYh-QD-RF6"/>
+                                                                    </connections>
                                                                 </textField>
                                                             </subviews>
                                                             <connections>
@@ -781,6 +784,9 @@
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
+                                                                    <connections>
+                                                                        <binding destination="z5O-xN-VjP" name="value" keyPath="objectValue.name" id="w1y-fn-eIc"/>
+                                                                    </connections>
                                                                 </textField>
                                                             </subviews>
                                                             <connections>
@@ -790,6 +796,9 @@
                                                     </prototypeCellViews>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <binding destination="t49-Zj-Qya" name="content" keyPath="arrangedObjects" id="ZkA-4X-idh"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                 </clipView>
