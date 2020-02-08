@@ -7,6 +7,12 @@
 
 import Cocoa
 
+var g_items = NSMutableArray(array:[
+    Item(1, "hoge"),
+    Item(2, "fuga"),
+    Item(3, "piyo")
+])
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
