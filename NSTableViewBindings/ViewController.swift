@@ -7,15 +7,15 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, NSTableViewDelegate {
 
     @IBOutlet var arrayController: NSArrayController!
     @IBOutlet weak var tableView: NSTableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.arrayController.content = g_items
+        self.tableView.delegate = self
     }
 
     override var representedObject: Any? {
@@ -24,6 +24,14 @@ class ViewController: NSViewController {
         }
     }
 
+    func tableView(_ tableView: NSTableView, rowActionsForRow row: Int, edge: NSTableView.RowActionEdge) -> [NSTableViewRowAction] {
+        return [
+            NSTableViewRowAction(style: .destructive, title: "delete", handler: { action, row in
+                g_items.removeObject(at: row)
+                tableView.removeRows(at: IndexSet(integer: row), withAnimation: .effectFade)
+            })
+        ]
+    }
 
 }
 
